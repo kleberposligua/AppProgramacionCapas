@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppProgramacionCapas", "App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppIUWin", "AppIUWin\AppIUWin.csproj", "{FD6383E0-0DB1-43F5-80AF-E54642EF12FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPruebaFactoria", "AppPruebaFactoria\AppPruebaFactoria.csproj", "{76126812-D289-4C74-9C73-F0542AE6FFA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FD6383E0-0DB1-43F5-80AF-E54642EF12FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6383E0-0DB1-43F5-80AF-E54642EF12FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6383E0-0DB1-43F5-80AF-E54642EF12FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76126812-D289-4C74-9C73-F0542AE6FFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76126812-D289-4C74-9C73-F0542AE6FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76126812-D289-4C74-9C73-F0542AE6FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76126812-D289-4C74-9C73-F0542AE6FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
