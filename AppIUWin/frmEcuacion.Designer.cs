@@ -40,6 +40,7 @@
             this.txtX2 = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnGetX1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -144,11 +145,22 @@
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // btnGetX1
+            // 
+            this.btnGetX1.Location = new System.Drawing.Point(359, 153);
+            this.btnGetX1.Name = "btnGetX1";
+            this.btnGetX1.Size = new System.Drawing.Size(75, 23);
+            this.btnGetX1.TabIndex = 12;
+            this.btnGetX1.Text = "GET X1";
+            this.btnGetX1.UseVisualStyleBackColor = true;
+            this.btnGetX1.Click += new System.EventHandler(this.btnGetX1_Click);
+            // 
             // frmEcuacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 301);
+            this.Controls.Add(this.btnGetX1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtX2);
@@ -182,5 +194,6 @@
         private System.Windows.Forms.TextBox txtX2;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnGetX1;
     }
 }
